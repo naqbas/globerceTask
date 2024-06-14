@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-width:400px ;
+}
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a,
+a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
